@@ -2,6 +2,9 @@ body{
 	background-image:url("img/swirl_pattern.png");
 	font-family: "Roboto", "Helvetica Neue", sans-serif;
 }
+h1{
+	letter-spacing: 5px;
+}
 
 #container{
 	width: 800px;
@@ -11,9 +14,11 @@ body{
 	border-top-right-radius: 20px;
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius: 20px;
+	box-shadow: 10px 5px 5px #CBC9C9, -10px 5px 5px #CBC9C9;
 }
 .contact{
 	text-align: center;
+	letter-spacing: 1px;
 }
 .email{
 	text-decoration: none;
@@ -22,16 +27,21 @@ body{
 	width:100%;
 	margin: 0 auto;
 	line-height: 20px;
+
 }
 .bullets ol{
-	list-style-type: none;
+	list-style-type: circle;
 	text-align: left;
 	margin: 0 auto;
+
 }
 .bullets > span{
 	width: 400px;
 	padding-left: 50px;
 	padding-top: 50px;
+}
+.duties li{
+	list-style-type: circle;
 }
 .position{
 	font-weight: bold;
